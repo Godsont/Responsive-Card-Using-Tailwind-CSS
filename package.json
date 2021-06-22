@@ -1,0 +1,17 @@
+{
+  "name": "features-card",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "postcss ./src/style.css -o ./public/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.2"
+  }
+}
